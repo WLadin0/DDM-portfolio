@@ -1,0 +1,116 @@
+body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/background02.jpg);
+    background-size: cover;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container .main {
+    max-width: 1150px;
+    min-height: 500px;
+    background-color: beige;
+    margin: 0 auto;
+    margin-top: calc((100vh - 700px) /2);
+    border-radius: 25px;
+    position: relative;
+    margin-bottom: 0;
+}
+
+.content {
+    display: flex;
+    flex-wrap: wrap-reverse;
+    justify-content: space-around;
+    padding-bottom: 50px;
+    padding-top: 110px;
+}
+
+.list {
+    padding: 0;
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+li {
+    list-style: none;
+    text-align: left;
+    font-weight: 500;
+}
+
+.list h1 {
+    font-size: 20px;
+    padding: 0;
+    border-bottom: 2px solid rgb(172, 172, 172);
+    transition: all .5s;
+}
+
+.list {
+    width: 670px;
+}
+
+.list li {
+    transition: width .5s;
+    cursor: pointer;
+}
+
+.list li:nth-child(1) {
+    width: 80px;
+}
+
+.list li:nth-child(2) {
+    width: 140px;
+}
+
+.list li:nth-child(3) {
+    width: 80px;
+}
+
+.list li:nth-child(4) {
+    width: 580px;
+}
+
+.list li:nth-child(5) {
+    width: 150px;
+}
+
+li h2 {
+    font-size: 12px;
+    margin-top: -10px;
+    font-weight: 300;
+    color: rgb(172, 172, 172);
+    transition: all .5s;
+}
+
+li:hover h2 {
+    color: rgb(68, 68, 68);
+    transition: all .5s;
+}
+
+.img {
+    width: 380px;
+    height: 380px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-left: -30px;
+    cursor: pointer;
+    margin-right: 40px;
+    margin-top: -50px;
+}
+
+.img img {
+    width: auto;
+    opacity: .9;
+    height: 150%;
+    transform: scale(1);
+    transition: all .5s;
+}
+
+.img img:hover {
+    opacity: 1;
+    transform: scale(1.1);
+    transition: all .5s;
+}

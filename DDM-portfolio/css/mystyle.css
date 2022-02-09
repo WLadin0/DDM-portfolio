@@ -1,0 +1,113 @@
+body {
+    color: white;
+    background: whitesmoke;
+    text-align: center;
+}
+
+h1 {
+    font-size: xx-large;
+    color: white;
+}
+
+h2 {
+    font-size: x-large;
+    color: white;
+}
+
+h3 {
+    font-size: larger;
+    color: white;
+}
+
+p {
+    font-size: larger;
+    color: white;
+}
+
+article {
+    border: 10px solid black;
+}
+
+.image {
+    overflow: hidden;
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+}
+
+.image img {
+    width: 110%;
+    height: auto;
+}
+
+td,
+th {
+    border: 2px solid whitesmoke;
+}
+
+.movie {
+    margin-top: -51px;
+}
+
+table {
+    margin: 0 auto;
+}
+
+table a {
+    width: 500px;
+    height: 230px;
+    overflow: hidden;
+    display: block;
+}
+
+table img {
+    width: 100%;
+    height: auto;
+}
+
+.zoom {
+    transition: transform .2s;
+    margin: auto;
+}
+
+.zoom:hover {
+    transform: scale(1.05);
+}
+
+.vizitka {
+    display: flex;
+    margin: 0 auto;
+    margin-left: 475px;
+    margin-top: 10px;
+    width: 800px;
+    text-align: left;
+}
+
+.text {
+    padding-left: 20px;
+    line-height: 15px;
+}
+
+a:link {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:visited {
+    color: white;
+    background-color: transparent;
+    text-decoration: none;
+}
+
+a:hover {
+    color: white;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+@media (max-width: 500px) {
+    body {
+        color: salmon;
+    }
+}
